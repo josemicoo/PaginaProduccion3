@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>Home - LandArt</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+
+        <div class="container mt-2 logo">
+          <a href="index.html" id="aLogo">
+            <img src="images/logo.png" alt="">
+            </a>
+      </div>
+
+      <ul class="nav mt-3">
+        <li class="nav-item">
+          <a class="nav-link aNav" aria-current="page" href="Subpaginas/iniciativa.html">Iniciativa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link aNav" href="Subpaginas/historia.html">Historia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link aNav" href="Subpaginas/obras.html">Obras</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link aNav" href="Subpaginas/museos.html">Museos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link aNav" href="Subpaginas/contacto.html">Contacto</a>
+        </li>
+       
+      </ul>
+
+      </div>
+
+      <div class="container">
+         <div class="row">
+              <div class="col-12">
+                      <a href="/Subpaginas/login.html" class="loginIcono text-right">
+                          <img src="/images/loginIcono.svg" class="lg-col-6 loginIconoImagen text-right" alt="">
+                      </a>
+                </div>  <!-- col-12 -->
+        </div>
+      </div>
+
+
+    <div class="container">
+      <form action="PHP/resultados_buscar.php" class="text-center" method="post">
+        <label>Buscar Artistas
+        <input type="search" name="buscar" style="color: black;" placeholder="Buscar..." />
+        <input type="submit" value="Enviar">
+        </label>
+        </form>
+
+        
+      </div>
+
+ 
+    
+    </header>
+
+    <!--BANNER-->
+    <section>
+      
+        <div class="container">
+          <div class="row">
+          <div class="bannerPrincipal col-l-12 ">
+            <img src="images/banner_1.png" class="banner_1 mt-2" alt="">
+          </div>
+        </div>
+        </div>
+
+    </section>
+
+    <!--TEXTO-->
+    <div class="container">
+      <div class="row">
+          <div class="texto1">
+              <h1 class="text-center tituloUno">El arte que proviene de la naturaleza</h1>
+          </div>
+      </div>
+    </div>
+
+    <!--IMAGENES-->
+
+    
+      <div class="container">
+        <div class="row">
+          <div class="contenedor col-lg-12">
+            <img src="images/imagen1_1.png" class="imagen1_1"/>
+         
+
+          
+            <div class="texto-encima">
+              <h2>Iniciativa</h2>
+            </div>
+
+            <div class="parrafo-encima">
+              <p class="parrafoImagenes">¿De donde?, ¿como? y ¿por que surge<br>esta nueva vanguardia del arte?</p>
+            </div>
+
+            <div class="parrafo-encima">
+              <div class="divBoton">
+                <a href="Subpaginas/iniciativa.html">
+                <button class="boton">
+                  <p class="textoBoton">¡Informate Ahora!</p>
+                </button>
+              </a>
+              </div>
+            </div>
+
+            <div class="rectanguloNegro col-lg-12">
+              <h1 class="tituloDos">Artistas destacados</h1>
+
+              <p class="parrafoImagenes">¡Conoce a esas personalidades que se destacan en el genero!</p>
+              
+              <a href="Subpaginas/historia.html">
+                  <button class="botton">
+                    <p class="textoBoton">¡Informate Ahora!</p>
+                  </button>
+              </a>
+            
+            </div>
+
+            <div class="col-12">
+                <img src="/images/imagen2_1.png" class="col-12" alt="">
+
+              
+                <div class="texto-encima2">
+                  <h2>Obras</h2>
+                </div>
+
+                <div class="parrafo-encima2">
+                  <p class="parrafoImagenes">Observa y disfruta nuestro compilado de <br> obras. ¡Todo en un solo lugar! </p>
+                </div>
+
+                <div class="parrafo-encima2">
+                  <div class="divBoton">
+                    <a href="Subpaginas/obras.html">
+                    <button class="boton2">
+                      <p class="textoBoton">¡Ver Ahora!</p>
+                    </button>
+                  </a>
+                  </div>
+                </div>
+
+            </div>
+
+
+            
+
+            <div class="col-12">
+              <img src="/images/imagen3_1.png" class="col-12" alt="">
+
+              <div class="texto-encima3">
+                <h2>Museos</h2>
+              </div>
+
+              <div class="parrafo-encima3">
+                <p class="parrafoImagenes">¿Estabas planeando hacer un viajecito? <br> Aprovecha y fijate cual es tu museo más <br> cerncano!</p>
+              </div>
+
+              <div class="parrafo-encima3">
+                <div class="divBoton">
+                  <a href="Subpaginas/museos.html">
+                  <button class="boton3">
+                    <p class="textoBoton">¡Ver Ahora!</p>
+                  </button>
+                </a>
+                </div>
+              </div>
+
+            </div>
+          
+          </div>
+          </div>
+        
+        </div>
+
+        
+      
+      
+
+
+
+       <!--FORMULARIO DE CONTACTO-->
+
+       <div class="container">
+         <div class="row">
+
+           <div class="col-lg-12">
+             <h1 class="text-center mt-5">Contácto</h1>
+           </div>
+
+           <p class="col-lg-12 parrafo-contacto-home text-center">Si te interesa aportar más información o algunas  imagenes a 
+             la galeria... mandanoslas. Nosotros revisaremos la información 
+             para corroborar que todo  sea veridico ¡y lo publicaremos!</p>
+         </div>
+       </div>
+
+       <div class="container mt-5 ">
+        <div class="cajaForm div-form row ">
+            <div class="col-lg-12 col-xs-12">
+    
+              <h1 class="m-3 mt-4 text-center">¡Completa con tus datos!</h1>
+              
+              <form class="m-3 " name="Formulario-contacto" netlify>
+                <div class="mb-3">
+                  
+                  <label for="exampleInputEmail1" class="form-label ">Nombre y Apellido</label>
+                  <input type="text" class="form-control mb-3 formulario-caja" placeholder="Nombre y Apellido" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                  <div id="emailHelp" class="form-text"></div>
+    
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" placeholder="Escribí tu dirección de mail aquí" class="  form-control formulario-caja" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                  <div id="emailHelp" class="form-text mb-3 ">No vamos a compartir tu dirección de correo con nadie, es confidencial ;) </div>
+    
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control  formulario-caja" placeholder="Escribí tu mensaje aquí" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                  </div>
+                </div>
+               
+               
+                <button type="submit" class="btn  boton-enviar">Enviar</button>
+              </form>
+ 
+
+
+  </body>
+</html>

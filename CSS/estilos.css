@@ -1,0 +1,389 @@
+*{margin: 0; padding: 0;}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+.logo {
+    width: 75%;
+}
+
+.loginIcono {
+    width: 100%;
+}
+
+.loginIconoImagen {
+    width: 4%;
+    display: flex;
+    justify-content: right;
+}
+
+input {
+    color: black!important;
+}
+nav {
+    text-align: right;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner_1 {
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imagen1_1 {
+    width: 100%;
+}
+
+h2 {
+    position: relative;
+    color: white;
+    font-size: 58px !important;
+}
+
+.texto1 {
+    height: 200px;
+    background-color: black;
+}
+
+.tituloUno {
+    color: white;
+    display: flex;
+    position: relative;
+    text-align: center;
+    padding-top: 5%;
+    justify-content: center;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.parrafo-encima {
+    position: absolute;
+    top: 140px;
+    left: 60px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.parrafo-encima {
+    color: white;
+    text-align: left;
+    font-size: 38px;
+}
+
+.boton{
+position: absolute;
+width: 250px;
+height: 48px;
+top: 120px;
+background: #FFFFFF;
+border-radius: 44px;
+box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease 0s;
+}
+
+.boton:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+.textoBoton {
+    color: black;
+    font-size: 24px;
+
+}
+
+.rectanguloNegro {
+    height: 360px;
+    background-color: black;
+}
+
+.tituloDos {
+    padding-top: 10%;
+    color: white;
+}
+
+.parrafoImagenes {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imagenDos {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+
+.parrafo-encima-dos {
+    width: 800px;
+    color: white;
+    text-align: left;
+    font-size: 38px;
+    position: absolute;
+    top: 835px;
+    left:85px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.texto-encima-dos{
+    position: absolute;
+    top: 1580px;
+    left: 160px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.botonDos{
+    position: absolute;
+    width: 250px;
+    height: 48px;
+    top: 1680px;
+    left: 100px;
+    background: #FFFFFF;
+    border-radius: 44px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.botonDos:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.botton {
+    border-radius: 30px;
+    text-decoration: none;
+    width: 250px;
+    height: 50px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+
+.botton:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.parrafo-encima-tres {
+    width: 800px;
+    color: white;
+    text-align: right;
+    font-size: 38px;
+    position: absolute;
+    top: 1010px;
+    right: 60px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.texto-encima-tres{
+    position: absolute;
+    top: 1930px;
+    text-align: right;
+    font-family:'Montserrat', sans-serif;
+    right:110px;
+}
+
+.botonTres{
+    position: absolute;
+    width: 250px;
+    height: 48px;
+    top: 2080px;
+    right: 200px;
+    background: #FFFFFF;
+    border-radius: 44px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.botonTres:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.imagenTres {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    font-style: bold;
+}
+
+.parrafo-contacto-home {
+    font-size: 24px;
+}
+
+.boton-enviar {
+    background-color: black;
+}
+
+.formulario-caja {
+    border-radius: 20px!important;
+}
+
+.boton-enviar {
+    background-color: black !important;
+    color: white !important;
+}
+
+.boton-enviar:hover {
+    background-color: tomato !important;
+    color: black !important;
+}
+
+.aNav {
+    color: black !important;
+    font-family:'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.aNav:hover {
+   color:#2EE59D !important;
+
+}
+
+#aLogo {
+    background-color: none ;
+}
+
+#aLogo:hover {
+    background-color: none ;
+}
+
+p {
+    font-family:'Montserrat', sans-serif;
+    line-height: 35px;
+}
+
+.parrafo-internas {
+    font-size: 22px;
+    line-height: 45px;
+}
+
+.orientacion-derecha {
+    text-align: left;
+}
+
+.botones-iniciativa {
+    width: 400px!important;
+    height: 100px !important;
+    font-size: 24px !important;
+    border-radius: 32px !important;
+}
+
+.aLogo {
+    background-color: none !important;
+    color: none !important;
+}
+
+input {
+    color: white;
+}
+
+
+.texto-encima2{
+    position: absolute;
+    top: 52%;
+    left: 60px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.parrafo-encima2 {
+    position: absolute;
+    top: 58%;
+    left: 60px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.parrafo-encima2 {
+    color: white;
+    text-align: left;
+    font-size: 38px;
+}
+
+.boton2{
+position: absolute;
+width: 250px;
+height: 48px;
+top: 120px;
+background: #FFFFFF;
+border-radius: 44px;
+box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease 0s;
+}
+
+.boton2:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.texto-encima3{
+    position: absolute;
+    top: 77%;
+    left: 60px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.parrafo-encima3 {
+    position: absolute;
+    top: 83%;
+    left: 60px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.parrafo-encima3 {
+    color: white;
+    text-align: left;
+    font-size: 38px;
+}
+
+.boton3{
+position: absolute;
+width: 250px;
+height: 48px;
+top: 120px;
+background: #FFFFFF;
+border-radius: 44px;
+box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease 0s;
+}
+
+.boton3:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.textosMuseos1 {
+    position: absolute;
+    top: 5%;
+}
